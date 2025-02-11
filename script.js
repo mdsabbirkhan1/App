@@ -8,7 +8,7 @@ function login() {
             message.style.color = "green";
             message.textContent = "Login successful! Redirecting...";
             setTimeout(() => {
-                window.location.href = "index.html"; // লগইন সফল হলে Home Page-এ যাবে
+                window.location.href = "home.html"; // লগইন সফল হলে Home Page-এ যাবে
             }, 2000);
         })
         .catch((error) => {
