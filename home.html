@@ -15,11 +15,11 @@
 
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
-    <script src="https://firebasestorage.googleapis.com/v0/b/gamar-421515.appspot.com/o/firebase-config.js?alt=media&token=474e9a1d-3c2c-402c-94c9-1d263a556aed"></script>
+    <script src="firebase-config.js"></script>
     <script>
         function logout() {
             firebase.auth().signOut().then(() => {
-                window.location.href = "https://www.gamar.pro/2025/02/blog-post.html"; // Logout হলে Login Page-এ যাবে
+                window.location.href = "index.html"; // Logout হলে Login Page-এ যাবে
             }).catch((error) => {
                 console.error("Logout Error:", error);
             });
